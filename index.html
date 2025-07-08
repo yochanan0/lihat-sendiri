@@ -1,16 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Selamat Datang</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ada yang Tak Bisa Diungkap di Sosmed...</title>
   <style>
-    body { font-family: sans-serif; text-align: center; padding: 100px; background: #fefefe; }
-    h1 { color: #007acc; }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Georgia', serif;
+      background: url('https://images.unsplash.com/photo-1609838464111-1d11b6f4bbde?auto=format&fit=crop&w=1200&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-shadow: 1px 1px 5px black;
+      height: 100vh;
+      text-align: center;
+      backdrop-filter: brightness(70%);
+    }
+    .container {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      border-radius: 20px;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 1.1em;
+      max-width: 400px;
+      margin: 0 auto 25px;
+    }
+    a.button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #ff3366;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: 0.3s ease;
+    }
+    a.button:hover {
+      background-color: #cc0044;
+    }
+    .footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.8em;
+      color: #ccc;
+    }
   </style>
 </head>
 <body>
-  <h1>Halo Dunia!</h1>
-  <p>Ini adalah landing page pertamaku di GitHub Pages.</p>
+  <div class="container">
+    <h1>Beberapa Hal... Lebih Baik Dilihat Sendiri</h1>
+    <p>Aku nggak bisa cerita semuanya di sini. Tapi kalau kamu cukup dewasa dan ingin tahu lebih banyak... klik saja tombol ini.</p>
+    <a class="button" href="https://blogdewasa.com" target="_blank">Lihat Apa yang Aku Maksud 💋</a>
+  </div>
+  <div class="footer">© 2025 — Untuk mata yang ingin tahu lebih banyak.</div>
 </body>
 </html>
